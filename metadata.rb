@@ -1,6 +1,6 @@
 name 'rails5_chef12_cookbook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Sam'
+maintainer_email 'sam@touchtech.co.nz'
 license 'All Rights Reserved'
 description 'Installs/Configures rails5_chef12_cookbook'
 long_description 'Installs/Configures rails5_chef12_cookbook'
@@ -18,3 +18,5 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/rails5_chef12_cookbook'
+
+depends 'opsworks_ruby', '1.4.0'
